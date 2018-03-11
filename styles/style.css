@@ -1,0 +1,141 @@
+
+html {
+ 	background-image: -moz-linear-gradient(to bottom, white 0%, #facd8a 100%);
+ 	background-image: -webkit-linear-gradient(to bottom, white 0%, #facd8a 100%);	
+ 	background-image: -o-linear-gradient(to bottom, white 0%, #facd8a 100%);
+ 	background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);	
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    	font-size: 100%;
+	width: 990px;
+	background-color: white;
+	margin: 15px auto;
+	padding: 15px 0;
+	border: 1px solid black;
+}
+
+article, aside, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+
+article{
+	margin-top: 1.5em;
+	margin-bottom: 1em;	
+}
+
+
+
+p {
+	font-size: 95%;
+	padding: .25em 0;
+}
+em { font-weight: bold; }
+
+
+
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+}
+
+legend {
+    color: #931420;
+    font-weight: bold;
+    font-size: 85%;
+    margin-bottom: .5em;
+}
+
+label, input, select {
+    font-size: 90%;
+}
+
+label {
+    float: left;
+    width: 12em;
+    text-align: right;
+}
+
+input, select {
+    width: 15em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+
+
+input, select {
+    width: 15em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+
+
+br {
+    clear: both;
+}
+#buttons input {
+	width: 10em;
+}
+
+.mandatory{
+ border: 3px solid red;
+}
+
+/* the styles for the header */
+header { 
+	padding-bottom: 2em;
+	border-bottom:2px solid #f2972e;
+}
+
+header h2 {
+	font-size: 220%;
+    	color: #f2972e;
+    	text-shadow: 2px 3px 0 black;
+    	margin-left: 120px;
+	margin-bottom: .25em;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+    	margin-left: 120px;
+}
+
+ h4
+{
+font-size: 100%;
+font-style: italic;
+color:red;
+
+}
+
+
+/* the styles for the article */
+
+article {
+	width: 535px;
+	margin:auto;
+	padding-right: 25px;
+	
+}
+
+article h1 {
+	font-size: 170%;
+	margin-bottom: 0.35em;
+}
+
+
+
+/* the styles for the footer */
+footer {
+	clear: both;
+	border-top: 2px solid #f2972e;
+	padding-top: 0.7em;
+}
+footer p {
+	font-size: 80%;
+	text-align: center;
+	margin-right: 20px;
+}
